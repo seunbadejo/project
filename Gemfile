@@ -34,7 +34,7 @@ gem 'font_awesome5_rails'
 
 gem "brakeman"
 
-gem 'sanitize-rails', require: 'sanitize/rails'
+gem 'rails-html-sanitizer'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -67,3 +67,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise-security'
+gem 'easy_captcha'
+gem 'rmagick'
+gem 'recaptcha'
+gem 'two_factor_authentication'
