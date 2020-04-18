@@ -18,10 +18,10 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
-        <td><%= post.title %></td>
+        <td><%= sanitize post.title %></td>
         <td><%= post.url %></td>
-        <td><%= post.summary %></td>
-        <td><%= post.body %></td>
+        <td><%= sanitize post.summary %></td>
+        <td><%= sanitize post.body %></td>
         <td><%= post.image %></td>
         <td><%= post.active %></td>
         <td><%= link_to 'Show', post %></td>

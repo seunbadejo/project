@@ -6,6 +6,8 @@
 
     <label for="inputPassword" class="sr-only">Password</label>
     <%= f.password_field :password, autocomplete: "current-password", placeholder: "Password", class: "form-control", id: "inputPassword" %>
+    <%= flash[:recaptcha_error] %>
+    <%= recaptcha_tags %>
 
 
     <div class="checkbox mb-3">

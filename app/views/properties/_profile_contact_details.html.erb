@@ -2,8 +2,8 @@
   <div class="mb-2">
     <%= profile_picture agent %>
   </div>
-  <h3 class="h4 m-0"><%= agent.full_name %></h3>
-  <p><%= agent.company %></p>
+  <h3 class="h4 m-0"><%= sanitize agent.full_name %></h3>
+  <p><%= sanitize agent.company %></p>
 
     <div class="row justify-content-lg-center">
       <div class="col-lg-8">

@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  devise_for :accounts
+  captcha_route
+  devise_for :accounts, controllers: {
+    registrations: 'accounts/registrations',
+    sessions: 'accounts/sessions',
+    passwords: 'accounts/passwords'
+  }
   resources :posts
   resources :properties
 

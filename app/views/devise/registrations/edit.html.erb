@@ -68,6 +68,9 @@
     <%= f.hidden_field :cover_image_cache %>
   </div>
 
+  <%= flash[:recaptcha_error] %>
+  <%= recaptcha_tags %>
+
   <div class="form-group">
     <%= f.submit "Update" %>
   </div>

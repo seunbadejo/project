@@ -16,8 +16,8 @@
   <tbody>
     <% @properties.each do |property| %>
       <tr>
-        <td><%= property.name %></td>
-        <td><%= property.address %></td>
+        <td><%= sanitize property.name %></td>
+        <td><%= sanitize property.address %></td>
         <td><%= property.price %></td>
         <td><%= property.integer %></td>
         <td><%= property.rooms %></td>
