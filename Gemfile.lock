@@ -422,6 +422,7 @@ DEPENDENCIES
   rack-timeout (= 0.3.2)
   rails (~> 6.0.2, >= 6.0.2.1)
   rails-html-sanitizer
+  rake
   recaptcha
   rmagick
   sass-rails (>= 6)
@@ -438,3 +439,6 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 2.6.3p62
+
+BUNDLED WITH
+   2.1.4
