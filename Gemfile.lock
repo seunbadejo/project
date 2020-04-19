@@ -266,6 +266,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rack-timeout (0.3.2)
     rails (6.0.2.2)
       actioncable (= 6.0.2.2)
       actionmailbox (= 6.0.2.2)
@@ -418,6 +419,7 @@ DEPENDENCIES
   mini_magick
   pg (~> 1.2.3)
   puma (~> 4.1)
+  rack-timeout (= 0.3.2)
   rails (~> 6.0.2, >= 6.0.2.1)
   rails-html-sanitizer
   recaptcha
@@ -436,6 +438,3 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 2.6.3p62
-
-BUNDLED WITH
-   2.1.4
